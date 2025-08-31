@@ -1,12 +1,52 @@
-# React + Vite
+# 🍲 Kitchen Companion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Recipe Finder web application** built with **React** and powered by [TheMealDB API](https://www.themealdb.com/).  
+This app allows users to **search for recipes, view detailed cooking instructions, manage favorites, and build a shopping list** — all in one place.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Search Recipes** — Find meals by name using TheMealDB API.
+- 🖼 **Recipe Details** — View ingredients, instructions, and a meal preview image.
+- ❤️ **Favorites** — Save and manage your favorite recipes (persisted in localStorage).
+- 🛒 **Shopping List** — Add recipe ingredients to your shopping list for easy meal planning.
+- 🎨 **Modern UI & Animations** — Smooth transitions with [Framer Motion](https://www.framer.com/motion/) and Tailwind CSS for styling.
+- 📱 **Responsive Design** — Works across mobile, tablet, and desktop screens.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **React** (Frontend Framework)
+- **Tailwind CSS** (Styling)
+- **Framer Motion** (Animations)
+- **TheMealDB API** (Recipe Data Source)
+- **LocalStorage** (Favorites & Shopping List persistence)
+
+---
+
+## 📸 Screenshots
+
+## Screenshots
+
+### Home Page
+
+![Home Page](public/recipe-0.jpg)
+
+### Not found
+
+!(public/recipe-1.jpg)
+
+## 🔧 Installation & Setup
+
+1. Clone the repository:
+
+https://github.com/Gentlestan/recipe-finder.git
+cd recipe-finder-capstone
+
+Install dependencies:
+npm install
+
+Start the development server:
+npm run dev
