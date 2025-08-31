@@ -32,11 +32,11 @@ This app allows users to **search for recipes, view detailed cooking instruction
 
 ### Home Page
 
-![Home Page](public/recipe-0.jpg)
+![Home Page](public/recipe-1.jpg)
 
 ### Not found
 
-!(public/recipe-1.jpg)
+! [Not Found](public/recipe-0.jpg)
 
 ## 🔧 Installation & Setup
 
